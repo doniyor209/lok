@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 45px 0;
+    border: 2px solid #DEDBDB;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-right i {
+    font-size: 24px;
+    color: #F0400F;
+
+}
+
+main {
+    background: #FAFAFA;
+    padding: 45px 0;
+    height: 100vh;
+}
+
+.box-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box-top h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    text-align: center;
+    color: #F0400F;
+    display: flex;
+    align-items: center;
+}
+
+.box {
+    width: 650px;
+    background-color: white;
+    border-radius: 50px;
+    border: 1px solid #DEDBDB;
+    padding: 66px 66px 20px 66px;
+    margin: 0 auto;
+}
+
+h1 {
+    padding-top: 30px;
+padding-bottom: 50px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58.09px;
+    text-align: center;
+    color: #0E0D5D;
+}
+
+.css {
+    background-color: #f5f5f5;
+    width: 533px;
+    height: 70px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.css p {
+    background-color: white;
+    width: 255px;
+    height: 54px;
+    border-radius: 20px;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 33.89px;
+    text-align: center;
+    padding: 9px 0;
+    margin-left: 11px;
+}
+
+.css span {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 33.89px;
+    text-align: center;
+    color: #757575;
+    padding-left: 42px;
+}
+
+input {
+    padding: 21px 51px;
+    width: 533px;
+    height: 70px;
+    top: 607px;
+    left: 459px;
+    border-radius: 20px 20px 20px 20px;
+    border: 1px 0px 0px 0px;
+    margin-top: 39px;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    border: none;
+    outline: none;
+    background-color: #FAFAFA;
+}
+
+#eye {
+    font-style: 24px;
+    margin-left: -60px;
+}
+
+.qr {
+    padding-top: 10px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.05px;
+    text-align: center;
+    color: #000000A3;
+
+}
+
+.btn {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    background: #F69E86;
+    color: #FFFFFF;
+    border-radius: 20px;
+    border: none;
+    margin-top: 30px;
+    margin-left: 320px;
+    padding: 17px 23px;
+}
